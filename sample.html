@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script src="jquery.min.js"></script>
+		<script src="lotteryMachine.min.js"></script>
+	</head>
+	<body>
+		<div id="ballMachine"></div>
+		
+		<input id="inputDigits" type="text"></input>
+		<button onclick="start()">click</button>
+		
+		<script type="text/javascript">		
+		
+			
+		//Initialize - Create the ball machine on a div element given
+		$(function() {
+			
+			var machine = $("#ballMachine").lotteryMachine({
+			  containerRadius: 150,
+			  waitInterval: 1000,
+			  playSound: true,
+			  callback: function(data){
+				alert(data); //On finish running lottery numbers, do something
+			  }
+			});
+		});		
+		
+		function start() {
+			//Run the ball machine to give specific number
+			$("#ballMachine").lotteryMachine('run', $('#inputDigits').val());
+		}
+
+		</script>
+	
+	</body>
+</html>
