@@ -1,6 +1,6 @@
 # lotteryMachine
 
-I noticed a lot of interest in this project, and I have soem free time. Do open an issue/email me at pungkahheng@gmail.com if you have any feature request/collaboration
+I noticed a lot of interest in this project, and I have some free time. Do open an issue/email me at pungkahheng@gmail.com if you have any feature request/collaboration
 
 ### Introduction
 This project is a javascript plugin that run the animation of drawing 4 numbered balls from a lottery machine. It's designed to be configurable and easy to use. To use this javascript, start by including the lotteryBall and jquery javascript.
