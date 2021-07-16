@@ -1,6 +1,8 @@
 # lotteryMachine
 
-Introduction
+I noticed a lot of interest in this project, and I have soem free time. Do open an issue/email me at pungkahheng@gmail.com if you have any feature request/collaboration
+
+### Introduction
 This project is a javascript plugin that run the animation of drawing 4 numbered balls from a lottery machine. It's designed to be configurable and easy to use. To use this javascript, start by including the lotteryBall and jquery javascript.
 
 ```<script src="https://www.jaypung.com/js/luckyball/lotteryMachine.min.js"></script>  ```
@@ -37,7 +39,7 @@ function start() {
 
 By calling the start() function, the lottery machine will start to run animation, drawing the numbers 0, 1, 2, and 3 one by one in such order. Upon finish drawing all the numbers, the callback function will be triggered.
 
-Summary
+### Summary
 There are quite a few things that can be done to improve this plugin. For now it can only handle 4 digits, though it shouldn't take much work to allow a configurable number of digits. The start position and movement of the balls can be more random. However, I have no intention of working on this further for now.
 
 
